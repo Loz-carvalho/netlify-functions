@@ -76,17 +76,6 @@ http://localhost:8888/.netlify/functions/synchronous
 
 ![Synchronous example](docs/assets/synchronous.png)
 
-### Background
-
-A background function is one that is meant for long-running tasks, e.g., creating a pdf. Long-running tasks always return 202.
-Another function is to be used to work with the result of the long-running task.
-
-> To define a background function, the name of the function needs to have a `-background` suffix (for example, 
-> netlify/functions/hello-background.mts or netlify/functions/hello-background/index.mts).
-
-http://localhost:8888/.netlify/functions/hello-background
-
-![background example](docs/assets/background.png)
 
 ### Specific paths
 
