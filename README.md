@@ -11,6 +11,9 @@ An example project using the examples from [the netlify functions docs](https://
 ```shell
 $> yarn
 
+The functions can be run locally via `npx netlify dev` but if you want to deploy it on netlify, then you need to link 
+your netlify account with your own version of this repo in Github and use `npx netlify link` once you have a site setup. 
+
 ```
 
 ## Usage
